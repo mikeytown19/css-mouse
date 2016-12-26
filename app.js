@@ -15,8 +15,7 @@ function shadow(e) {
   const yWalk = Math.round((y / height * walk) - (walk / 2));
 
   text.style.textShadow = `
-    ${xWalk}px ${yWalk}px 0 #ccc
-  `;
+    ${xWalk}px ${yWalk}px 0 #ccc`;
 
 }
 
